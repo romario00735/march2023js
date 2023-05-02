@@ -69,5 +69,5 @@ let name = prompt(`enter tour name`, `ivan`);
 console.log(name);
 let middleName = prompt();
 console.log(middleName);
-let age = prompt(`enter tour age`);
+let age = +prompt(`enter tour age`);
 console.log(age);
